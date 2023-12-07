@@ -7,7 +7,7 @@ function Question3({ question3, setQuestion3 }) {
   return (
     <>
       <div className="container">
-        <Question question={question3} />
+        <Question question={question} />
         <Options setQuestion3={setQuestion3} />
       </div>
     </>
