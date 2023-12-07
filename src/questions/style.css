@@ -1,0 +1,47 @@
+li {
+  list-style: none;
+}
+
+.grid {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+img {
+  height: 150px;
+  width: 200px;
+}
+
+li {
+  position: relative;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+li:hover {
+  scale: 1.1;
+}
+
+li:active {
+  scale: 1;
+}
+
+p {
+  position: absolute;
+  bottom: 5%;
+  right: 1%;
+}
+
+.label {
+  background-color: white;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.8rem;
+}
