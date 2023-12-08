@@ -13,7 +13,7 @@ function Question2({ setQuestion2 }) {
   return (
     <>
       <div className="container">
-        <Question question={question} />
+        <Question question={question} questionCount={2} />
 
         <List
           data={categoryData}

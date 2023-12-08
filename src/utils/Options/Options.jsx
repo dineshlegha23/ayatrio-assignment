@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 
-function Options({ setQuestion3 }) {
+function Options({ setQuestion }) {
   return (
     <>
       <div
         className="options"
         onClick={(e) => {
-          setQuestion3(e.target.value);
+          setQuestion(e.target.value);
         }}
       >
         <label className="amount-label" htmlFor="1">
